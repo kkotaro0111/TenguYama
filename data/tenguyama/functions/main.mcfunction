@@ -14,4 +14,4 @@ execute as @a[predicate=tenguyama:is_teki] if score @s tenguyama matches 0 run t
 execute as @a[predicate=tenguyama:is_teki] if score @s tenguyama matches 0 run scoreboard players set @s tenguyama 1
 
 # 馬に乗ってない人がいたら、その人のtenguyamaスコアを0にする
-execute as @a[predicate=!tenguyama:is_teki] if score @s tenguyama matches 1 run scoreboard players set @s tenguyama 0
+execute as @a[predicate=!tenguyama:is_teki] unless score @s tenguyama matches 0 run scoreboard players set @s tenguyama 0
