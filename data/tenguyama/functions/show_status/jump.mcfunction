@@ -1,0 +1,5 @@
+execute if entity @s[scores={tenguyamaStatus=89..100}] run tellraw @s [{"text": "Jump...", "color": "red"},{"text": " : "},{"text": "\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b", "color": "yellow"}]
+execute if entity @s[scores={tenguyamaStatus=77..88}] run tellraw @s [{"text": "Jump...", "color": "red"},{"text": " : "},{"text": "\u2b1b\u2b1b\u2b1b\u2b1b\u2b1c", "color": "yellow"}]
+execute if entity @s[scores={tenguyamaStatus=65..76}] run tellraw @s [{"text": "Jump...", "color": "red"},{"text": " : "},{"text": "\u2b1b\u2b1b\u2b1b\u2b1c\u2b1c", "color": "yellow"}]
+execute if entity @s[scores={tenguyamaStatus=53..64}] run tellraw @s [{"text": "Jump...", "color": "red"},{"text": " : "},{"text": "\u2b1b\u2b1b\u2b1c\u2b1c\u2b1c", "color": "yellow"}]
+execute if entity @s[scores={tenguyamaStatus=40..52}] run tellraw @s [{"text": "Jump...", "color": "red"},{"text": " : "},{"text": "\u2b1b\u2b1c\u2b1c\u2b1c\u2b1c", "color": "yellow"}]

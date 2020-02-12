@@ -1,1 +1,2 @@
 scoreboard objectives add tenguyama dummy
+scoreboard objectives add tenguyamaStatus dummy
